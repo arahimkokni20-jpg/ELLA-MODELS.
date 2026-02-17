@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact - ELA Models</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="wrapper">
+
+    <!-- NAVBAR -->
+    <div class="navbar">
+        <div class="logo">ELLA MODELS.</div>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Models</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Apply</a></li>
+            <li><a href="#" style="color:#ff6b5f;">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- TITLE -->
+    <div class="title">
+        <h1>CONTACT US</h1>
+    </div>
+
+    <!-- CONTACT INFO -->
+    <div class="contact-section">
+        <div class="contact-grid">
+
+            <div class="contact-box">
+                <h3>ADDRESS</h3>
+                <p>1234 Perry Street<br>San Francisco, CA 94109</p>
+            </div>
+
+            <div class="contact-box">
+                <h3>ENQUIRIES & BOOKINGS</h3>
+                <p>123-456-7890<br>info@elamodels.com</p>
+            </div>
+
+            <div class="contact-box">
+                <h3>BOOK A MODEL</h3>
+                <p>123-456-7890<br>bookings@elamodels.com</p>
+            </div>
+
+            <div class="contact-box">
+                <h3>BECOME A MODEL</h3>
+                <p>Apply Online<br>Click Here</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- NEWSLETTER -->
+    <div class="newsletter">
+        <h3>SUBSCRIBE TO OUR NEWSLETTER</h3>
+        <p>Be the first to know about new models, campaigns and news</p>
+
+        <form>
+            <input type="email" placeholder="Email Address" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+        © 2026 ELA Models. All Rights Reserved.
+    </div>
+
+</div>
+
+<script>
+function toggleMenu(){
+    document.getElementById("navLinks").classList.toggle("active");
+}
+</script>
+
+</body>
+</html>
